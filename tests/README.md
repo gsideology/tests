@@ -1,6 +1,6 @@
 # Junior Developer Tests
 
-This folder contains 4 tests with intentional errors. Your task is to find and fix all the errors.
+This folder contains 9 tests with intentional errors. Your task is to find and fix all the errors.
 
 ## Test 1: Python Script
 **File:** `python_test.py`
@@ -21,6 +21,31 @@ This folder contains 4 tests with intentional errors. Your task is to find and f
 **File:** `sql_test.sql`
 **Task:** Query to get users with orders in the last 30 days
 **Errors:** 2 errors
+
+## Test 5: PHP Server
+**File:** `server.php`
+**Task:** Basic PHP server script for user registration
+**Errors:** 2 errors (missing/wrong variables)
+
+## Test 6: CSS Styles
+**File:** `styles.css`
+**Task:** CSS file with child selectors
+**Errors:** 1 error (misspelled class name in child selector)
+
+## Test 7: JavaScript
+**File:** `script.js`
+**Task:** JavaScript functions for order processing
+**Errors:** 1 error (undefined variable)
+
+## Test 8: Python with Pandas
+**File:** `pandas_test.py`
+**Task:** Sales analysis script using pandas
+**Errors:** 3 errors (wrong column names and methods)
+
+## Test 9: SQL Products Query
+**File:** `products_query.sql`
+**Task:** Query to retrieve products from database with filters
+**Errors:** 2 errors (wrong column name and invalid HAVING clause)
 
 ## Instructions
 1. Review each test file

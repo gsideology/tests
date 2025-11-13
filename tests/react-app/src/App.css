@@ -1,0 +1,54 @@
+/* Test: CSS file with errors */
+/* There are 2 CSS errors in this file. Can you find and fix them? */
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+
+.user-item {
+  background-colour: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.user-item:hover {
+  transform: translateY(-5px);
+}
+
+.user-item h2 {
+  color: #007bff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.user-item p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.error-message {
+  color: #dc3545;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
